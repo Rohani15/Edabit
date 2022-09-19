@@ -1,0 +1,23 @@
+package easy;
+
+public class reverseAString 
+{
+
+	public static void main(String[] args)
+	{
+		final String str = "Hello"; 
+		System.out.println(reverse(str));
+	}
+	
+	  public static String reverse(final String str) 
+	  {
+		  String reverse = ""; 
+		  
+		  for(int i=str.length()-1; i>=0; i--)
+		  {
+			  reverse += str.charAt(i); 
+		  }
+		  return reverse; 
+		
+	  }
+
