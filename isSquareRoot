@@ -1,0 +1,17 @@
+//Create a function that takes an array of two numbers and checks if the square root of the first number is equal to the cube root of the second number.
+
+public class Challenge
+{
+	public static boolean squaresAndCubes(int[] arr)
+	{
+			if(Math.sqrt(arr[0]) == Math.cbrt(arr[1]))
+			{
+				return true; 
+			}
+		else
+		{
+			return false; 
+		}
+		
+	}
+}
