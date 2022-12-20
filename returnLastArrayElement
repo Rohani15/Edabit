@@ -1,0 +1,10 @@
+//Create a method that accepts an array and returns the last item in the array.
+
+public class Program 
+{
+    public static int getLastItem(int[] nums) 
+		{
+      return nums[nums.length - 1];
+
+    }
+}
