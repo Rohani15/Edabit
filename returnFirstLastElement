@@ -1,0 +1,13 @@
+//Create a function that takes an array of strings and return the first and last elements as a new array.
+
+//Example one 
+public class Challenge
+{
+	public static String[] firstLast(String[] arr) 
+  {
+		String one = arr[0];
+		String two = arr[arr.length - 1];
+		String[] arrNew = {one, two}; //Created a new string just to host the first and last element and returned that new string. 
+		return arrNew;
+	}
+}
